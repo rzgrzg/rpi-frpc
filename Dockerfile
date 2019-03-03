@@ -18,4 +18,4 @@ VOLUME /var/frp/conf
 
 
 
-CMD ./frpc -c /var/frp/conf/frpc.ini
+CMD /var/frp/frpc -c /var/frp/conf/frpc.ini
