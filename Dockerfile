@@ -6,6 +6,8 @@ ENV FRP_VERSION 0.24.1
 
 WORKDIR /var/frp
 
+RUN apt install tar
+
 RUN mkdir /var/frp/conf
 
 ADD https://github.com/fatedier/frp/releases/download/v$FRP_VERSION/frp_${FRP_VERSION}_linux_arm.tar.gz /var/frp/frp_${FRP_VERSION}_linux_arm.tar.gz
