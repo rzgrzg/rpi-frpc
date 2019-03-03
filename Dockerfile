@@ -1,4 +1,4 @@
-FROM FROM hypriot/rpi-alpine-scratch
+FROM hypriot/rpi-alpine-scratch
 
 MAINTAINER rzgrzg,<13416155@qq.com>
 
