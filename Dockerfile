@@ -6,7 +6,7 @@ ENV FRP_VERSION 0.24.1
 
 WORKDIR /var/frp
 
-RUN RUN apt-get upgrade tar -y
+RUN apt-get upgrade tar -y
 
 RUN mkdir /var/frp/conf
 
