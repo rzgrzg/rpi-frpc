@@ -2,7 +2,7 @@ FROM hypriot/rpi-alpine-scratch
 
 MAINTAINER rzgrzg,<13416155@qq.com>
 
-ENV FRP_VERSION 0.24.1
+ENV FRP_VERSION 0.25.3
 
 WORKDIR /var/frp
 
